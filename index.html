@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Viewport meta tag: required for responsive layout on mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nico De Leon | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Your Name, BSIT student.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home" class="brand">Nico De Leon</a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark mode">Dark</button>
+        <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">Menu</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+
+    
+    <section class="hero" id="about">
+      <div class="hero-text">
+        <h1>Hi, I'm Nico De Leo. I build web apps that solve everyday problems.</h1>
+        <p class="lead">
+          I'm a BSIT student at Bulacan State University. I enjoy turning real
+          needs into working software, from routing tools to small business websites.
+        </p>
+        <p>
+          
+          I started programming to understand how the apps I use every day are made.
+          Now I work on group projects in systems analysis and web development,
+          and I am learning to design, build, and ship them end to end.
+        </p>
+        <a href="#projects" class="btn">See my projects</a>
+      </div>
+
+      <figure class="hero-photo">
+        
+        <img src="profile.jpg" alt="Portrait of Nico" width="400" height="400">
+      </figure>
+    </section>
+
+    
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="card-grid">
+
+        <article class="card">
+          <h3>KilometrIQ</h3>
+          <p>A decision support system for livestock transit routing and price matching, built as a group project for IT 303.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>Systems analysis</li><li>Decision support</li>
+          </ul>
+          
+          <a href="" class="card-link">View on GitHub</a>
+        </article>
+
+        <article class="card">
+          <h3>LuponCoopWeb</h3>
+          <p>A cooperative website with a Firebase backend for storing and loading its data.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Firebase</li>
+          </ul>
+          <a href="" class="card-link">View on GitHub</a>
+        </article>
+
+        <article class="card">
+          <h3>Personal Portfolio</h3>
+          <p>This single-page site: responsive layout, dark and light themes, and a mobile menu, written without frameworks.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <a href="" class="card-link">View on GitHub</a>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner">
+      <div>
+        <h2>Contact</h2>
+        <p>Open to internships, collaborations, and questions.</p>
+      </div>
+      <ul class="contact-list">
+        <li><a href="mailto:deleonjohnnico72@gmail.com">deleonjohnnico72@gmail.com</a></li>
+        <li><a href="https://github.com/fizzayaaa" target="_blank" rel="noopener">github.com/fizzayaaa</a></li>
+      </ul>
+    </div>
+    <p class="copyright">&copy; 2026 Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
